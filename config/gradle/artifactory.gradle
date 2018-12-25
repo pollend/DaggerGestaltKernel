@@ -39,7 +39,7 @@ artifactory {
     }
 
     // This is the source where we get dependencies. Or it would be but it does not appear to work
-    // Only the main repositories {} seems to matter, and if commented out this still doesn't help
+    // Only the Application repositories {} seems to matter, and if commented out this still doesn't help
     // After a Jenkins upgrade in March 2015 the setting in Jenkins started working. Needs retesting here
     resolve {
         repository {
